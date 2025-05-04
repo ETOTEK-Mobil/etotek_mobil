@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:todolist/services/base/http_base.dart';
-import 'package:todolist/services/shared_prefs_service.dart';
+import 'package:etotek_mobil/services/base/http_base.dart';
+import 'package:etotek_mobil/services/shared_prefs_service.dart';
 
 class AppInit {
   static Future<void> init() async {

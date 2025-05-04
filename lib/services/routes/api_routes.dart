@@ -1,10 +1,6 @@
-import 'package:todolist/services/constants/api_constants.dart';
+import 'package:etotek_mobil/services/constants/api_constants.dart';
 
-enum ApiRoutes {
-  login,
-  register,
-  tasks,
-}
+enum ApiRoutes { login, register }
 
 extension ApiRoutesExtension on ApiRoutes {
   String get route {
@@ -13,8 +9,6 @@ extension ApiRoutesExtension on ApiRoutes {
         return '/login';
       case ApiRoutes.register:
         return '/register';
-      case ApiRoutes.tasks:
-        return '/tasks';
     }
   }
 

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:todolist/core/init/app_init.dart';
-import 'package:todolist/services/shared_prefs_service.dart';
-import 'package:todolist/ui/view/home/home_view.dart';
-import 'package:todolist/ui/view/login/login_view.dart';
+import 'package:etotek_mobil/core/init/app_init.dart';
+import 'package:etotek_mobil/services/shared_prefs_service.dart';
+import 'package:etotek_mobil/ui/view/home/home_view.dart';
+import 'package:etotek_mobil/ui/view/login/login_view.dart';
 
 void main() async {
   await AppInit.init();

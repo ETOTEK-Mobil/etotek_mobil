@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:todolist/services/routes/api_routes.dart';
+import 'package:etotek_mobil/services/routes/api_routes.dart';
 
 /// HTTP isteklerini yönetmek için temel bir sınıf. Bu temel sınıf sayesinde tokenları tekrar tekrar yazmamız gerekmez.
 class HttpBase {

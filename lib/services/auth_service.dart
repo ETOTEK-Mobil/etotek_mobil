@@ -1,4 +1,4 @@
-import 'package:todolist/services/base/http_base.dart';
+import 'package:etotek_mobil/services/base/http_base.dart';
 
 /// Yetkilendirme işlemlerini yönetmek için kullanılan sınıf.
 /// Bu sınıf, [HttpBase] sınıfını temel alır bu sayede [HttpBase] sınıfındaki metotları kullanabilir.
